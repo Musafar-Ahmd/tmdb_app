@@ -24,6 +24,7 @@ class _SearchScreenState extends State<SearchScreen> {
     final viewModel = Provider.of<HomeViewModel>(context);
     final results = viewModel.searchList?.results ?? [];
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: AppColors.backgroundColor,
       appBar: commonAppBar(
         context: context,

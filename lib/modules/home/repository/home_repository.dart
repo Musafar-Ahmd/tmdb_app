@@ -63,7 +63,7 @@ class HomeRepository {
       var headers = {'Authorization': 'Bearer ${AppKeys.token}'};
       var dio = Dio();
       var response = await dio.request(
-        'https://api.themoviedb.org/3/movie/$id?language=en-US',
+        '${AppUrls.baseUrl}$id?language=en-US',
         options: Options(method: 'GET', headers: headers),
       );
 

@@ -69,7 +69,6 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
           ),
-          const SizedBox(height: 16),
 
           results.isEmpty
               ? const Center(
