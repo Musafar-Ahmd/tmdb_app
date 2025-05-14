@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tmdb_app/modules/reviews/view_model/review_view_model.dart';
-import 'package:tmdb_app/modules/utils/app_urls.dart';
 import 'package:tmdb_app/resources/app_colors.dart';
 import '../../../resources/app_fonts.dart';
 import '../../../resources/navigation_extension.dart';
+import '../../../utils/app_urls.dart';
 import 'detail_review_screen.dart';
 
 class ReviewsList extends StatelessWidget {

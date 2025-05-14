@@ -2,7 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:tmdb_app/resources/app_fonts.dart';
 import '../../../../resources/app_colors.dart';
-import '../../../utils/app_urls.dart';
+import '../../../../utils/app_urls.dart';
 
 class MovieCard extends StatelessWidget {
   final String imageUrl;

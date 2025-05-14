@@ -7,7 +7,7 @@ import 'package:tmdb_app/resources/app_colors.dart';
 import 'package:tmdb_app/resources/app_strings.dart';
 import 'package:tmdb_app/widgets/custom_app_bar.dart';
 import '../../../resources/app_fonts.dart';
-import '../../utils/app_urls.dart';
+import '../../../utils/app_urls.dart';
 import '../view_model/home_view_model.dart';
 
 class MovieDetailScreen extends StatefulWidget {

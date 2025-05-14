@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import '../resources/app_colors.dart';
 import '../resources/app_fonts.dart';
+import '../resources/app_strings.dart';
 
 customDecoration() {
   return InputDecoration(
     hintStyle: AppFonts.roboto(fontSize: 14, color: AppColors.backgroundColor),
-    hintText: "Search for items",
+    hintText: AppStrings.searchMovies,
     filled: true,
     fillColor: Colors.grey[200],
     contentPadding: const EdgeInsets.symmetric(horizontal: 16.0),

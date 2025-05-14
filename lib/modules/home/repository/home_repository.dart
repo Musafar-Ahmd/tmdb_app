@@ -2,8 +2,8 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:tmdb_app/modules/home/model/movie_detail.dart';
 import 'package:tmdb_app/modules/home/model/movies_list.dart';
-import '../../utils/app_keys.dart';
-import '../../utils/app_urls.dart';
+import '../../../utils/app_keys.dart';
+import '../../../utils/app_urls.dart';
 
 class HomeRepository {
   /// Fetches the list of popular movies.

@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import '../../utils/app_keys.dart';
-import '../../utils/app_urls.dart';
+import '../../../utils/app_keys.dart';
+import '../../../utils/app_urls.dart';
 import '../model/reviews.dart';
 
 class ReviewRepository {
