@@ -26,3 +26,14 @@ Main Features
 🎬 Movie Detail Page — Shows detailed info and reviews.
 💬 Review Section — Displays user reviews from TMDb.
 💫 Splash Screen — Lottie animation for better UX.
+
+Used Packages
+
+| Package Name               | Version  | Description                                                              |
+| -------------------------- | -------- | ------------------------------------------------------------------------ |
+| **`dio`**                  | ^5.8.0+1 | A powerful HTTP client used for making network requests to the TMDb API. |
+| **`provider`**             | ^6.1.5   | Used for state management and ViewModel communication across the UI.     |
+| **`cached_network_image`** | ^3.4.1   | Loads and caches images efficiently to improve performance and UX.       |
+| **`google_fonts`**         | ^6.2.1   | Enables use of custom Google Fonts to enhance typography and UI design.  |
+| **`lottie`**               | ^3.3.1   | Used to display Lottie animations (e.g., animated splash screen).        |
+
